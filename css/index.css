@@ -1,0 +1,23 @@
+body {
+  background-color: #002259;
+}
+.task-form{
+  color: white;
+  font-size: 14px;
+}
+.form-box {
+  color: black;
+}
+.form-button {
+  background-color: white;
+  color: black;
+  width: 75px;
+  border-radius: 5px;
+}
+.form-button:hover {
+  transform: ;
+  background-color: grey;
+}
+.margin-top {
+  margin-top: 3%;
+}
