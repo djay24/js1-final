@@ -8,11 +8,18 @@ body {
 .form-box {
   color: black;
 }
+.list-item:hover {
+  color: white;
+  background: #828255;
+  
+}
 .form-button {
   background-color: white;
   color: black;
   width: 75px;
   border-radius: 5px;
+  margin-left: 5px;
+
 }
 .form-button:hover {
   transform: ;
@@ -21,3 +28,42 @@ body {
 .margin-top {
   margin-top: 3%;
 }
+/* .buttons {
+  top: 0;
+  right: 0;
+  height: 100%;
+  float: right;
+  margin-top: -7px;
+  text-align: right;
+}
+.remove {
+  float: right;
+  color: black;
+  background-color: #FFFFA5;
+  border-color: #FFFFA5;
+  margin-top: 10px;
+  top: ;
+  right: 0;
+}
+.remove:hover {
+  color: blue;
+} */
+
+/*  list items */
+.center-text {
+  text-align: center;
+}
+.todo {
+  list-style: none;
+  color: black;
+  font-size: 30px;
+  padding: 10px;
+  background: #ffffA5;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.list-header {
+  color: white;
+  text-align: center;
+}
+@media ()

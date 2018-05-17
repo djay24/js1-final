@@ -8,19 +8,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
   <div class="container-fluid">
     <div class="margin-top row">
       <div class="col-sm-6">
-        <form class="task-form" action="" name="task">
-          <label class="" for="">Add Task</label>
-          <input type="text" name="addTask" class="form-box">
-          <input type="submit" value="Add Task" class="form-button">
-        </form>
+        <input type="text" id="item" placeholder="Add a task" type="reset">
+        <button class="form-button" id="add">Add Task</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 col-sm-offset-4">
+        <h2 class="list-header">To Do</h2>
+      </div>
+    </div>
+    <div class="row margin-top">
+      <div class="col-sm-4 col-sm-offset-4">
+        <ul class="todo" id="todo">
+
+        </ul>
       </div>
     </div>
   </div>
+  <!-- <svg id="trashCan" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 84V56c0-13.3 10.7-24 24-24h112l9.4-18.7c4-8.2 12.3-13.3 21.4-13.3h114.3c9.1 0 17.4 5.1 21.5 13.3L312 32h112c13.3 0 24 10.7 24 24v28c0 6.6-5.4 12-12 12H12C5.4 96 0 90.6 0 84zm415.2 56.7L394.8 467c-1.6 25.3-22.6 45-47.9 45H101.1c-25.3 0-46.3-19.7-47.9-45L32.8 140.7c-.4-6.9 5.1-12.7 12-12.7h358.5c6.8 0 12.3 5.8 11.9 12.7z"/></svg> -->
 
 
     <script
